@@ -1,6 +1,6 @@
 import express from "express";
 import Task from "../models/task.js";
-import task from "../models/task.js";
+
 const router = express.Router();
 const getTask = async (req, res, next) => {
   let task;
