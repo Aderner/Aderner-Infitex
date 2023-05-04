@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 # rest testing files
-.rest
+*.rest
 # package-lock.json
 package-lock.json
