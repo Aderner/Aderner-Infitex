@@ -135,3 +135,5 @@ dist
 package-lock.json
 # Local Netlify folder
 .netlify
+# Environment variable
+.env
