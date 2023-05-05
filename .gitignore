@@ -133,3 +133,5 @@ dist
 *.rest
 # package-lock.json
 package-lock.json
+# Local Netlify folder
+.netlify

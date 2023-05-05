@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "MongoDB REST API for programming playground",
   "type": "module",
-  "main": "index.js",
+  "main": "src/api.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "startDev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "build": "./node_modules/.bin/netlify-lambda build src",
     "test": "test"
   },
   "author": "Konrad & Michalek",
