@@ -17,7 +17,7 @@ const getTask = async (req, res, next) => {
 };
 //GET one
 router.get("/:id", getTask, (req, res) => {
-  res.send(res.task.title);
+  res.json(res.task);
 });
 //GET all
 router.get("/", async (req, res) => {
